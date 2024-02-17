@@ -1,7 +1,7 @@
 function matchFinder(str1, str2) {
     if (typeof str1 === 'string' && typeof str2 === 'string') {
         
-// match function is used for matching the value of two sreings
+// match function is used for matching the value of two strings
             if (str1.match(str2)) {
                 console.log('true');
             }
